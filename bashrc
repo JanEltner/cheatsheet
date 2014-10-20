@@ -1,5 +1,8 @@
+#trims input for the url
+#to ensure clean functionality you will poissble need to put the input into quotations
+#example: google "something with <special#chars?>"
 trimForHTTP(){
-echo $@ | sed 's/[[:blank:]]/%20/g' | sed 's/+/%2B/g'; }
+echo $@ | sed 's/[[:blank:]]/%20/g' | sed 's/+/%2B/g' | sed 's/&/%26/g' | sed 's/?/%3f/g' | sed 's/#/%23/g' | sed 's/</%3C/g' | sed 's/>/%3E/g'; }
 
 google(){
 firefox https://www.google.de/search?q=`trimForHTTP $@`; }
