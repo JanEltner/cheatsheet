@@ -1,0 +1,5 @@
+how to download videos from echo360:
+
+simple open page with the video, then  remove part after the ? in the url then add:
+
+/media.m4v to the url
