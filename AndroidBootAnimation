@@ -1,0 +1,4 @@
+1. Get a bootanimation.zip e.g. from http://androidbootanimation.com or create it by your own (name must be bootanimation.zip, for the structure orient on the original or one from that site...)
+2. Use an Filebrowser with root access on your phone. Change to the folder /system/media
+3. Rename the existing bootanimation.zip to e.g. bootanimation.zip.bak
+4. Copy the new bootanimation.zip to /system/media/bootanimation.zip
