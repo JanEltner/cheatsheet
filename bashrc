@@ -18,3 +18,8 @@ firefox http://www.imdb.com/find?`trimForHTTP $@`; }
 
 translate(){
 firefox http://dict.leo.org/#/search=`trimForHTTP $@`; }
+
+display-brightness(){
+max=2583660    #Here must be the value of /sys/class/backlight/intel_backlight/max_brightness
+sudo echo $[$max*$1/100] > /sys/class/backlight/intel_backlight/brightness
+}
