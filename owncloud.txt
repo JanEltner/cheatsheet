@@ -1,3 +1,4 @@
 https://www.df.eu/de/service/df-faq/cloudserver/anleitungen/owncloud-installieren-debian-ubuntu/		<<< very good instruction
 sudo -u www-data php /var/www/owncloud/occ user:resetpassword username  								<<< change password over commandline
 http://sharadchhetri.com/2013/05/24/how-to-configure-self-signed-ssl-certificate-in-owncloud-ubuntu/	<<< How to enable https
+https://doc.owncloud.org/server/7.0/admin_manual/configuration/occ_command.html							<<< Infos about the Owncloud Console
