@@ -1,0 +1,2 @@
+https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/doc/settings/nginx.md#enable-https					<<< HTTPS for gitlab
+openssl req new -x509 -days 365 -nodes -out gitlab.example.com.crt -keyout gitlab.example.com.key 			<<< Generate a new certificate
